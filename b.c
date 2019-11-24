@@ -1,8 +1,8 @@
-#include<stdio.h>
-#include"a.h"
-void main(){
-    char name[10]="fangfang";
-    int len=9;
-    printf("%s\n",name);
-    printf("%d\n",len);
+int add(int a,int b){
+    return a+b;
+}
+int delete(int &a,int b){
+    a=a-b;
+    return a;
+    
 }
