@@ -1,7 +1,7 @@
 vpath %.h .
 object=a
-a:a.o b.o a.h
-b.o:b.c b.h
+a:a.o 
+a.o:a.cpp a.h
 .PHONY:clean all
 clean:
 	rm $(object) *.o
