@@ -1,5 +1,9 @@
+#include<iostream>
+#include<vector>
+using namespace std;
 struct str_people{
-    char name[10];
-    char identify_card[25];
+    string name;
+    string identify_card;
     int age;
 };
+vector<str_people> v_strPeople(10);
